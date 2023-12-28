@@ -16,6 +16,9 @@ for (let i = 1; i <= 10; i++) {
     continue;
   }
 
+  
+
+
   // Calcular el salario anual
   const salarioAnual = sueldoMensual * mesesTrabajados;
 
@@ -32,3 +35,27 @@ for (let i = 1; i <= 10; i++) {
   // Mostrar resultados
   alert(`${nombreEmpleado}, tu aguinaldo es de ${aguinaldo} pesos de acuerdo a las leyes Mexicanas. de igual manera le otorgamos su numero para la rifa anual. Numero de rifa: ${numeroRifa}`);
 }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var objRifas = [Television, iPad, Audifonos];
+
+// Television
+var Television = {
+  marca: "Sony",
+  modelo: "Bravia",
+  pulgadas: 55,
+};
+
+// iPad
+var iPad = {
+  modelo: "iPad Pro",
+  capacidad: "256GB",
+  color: "Plata",
+};
+
+// Audifonos
+var Audifonos = {
+  marca: "Sony",
+  modelo: "WH-1000XM4",
+  color: "Negro",
+};
